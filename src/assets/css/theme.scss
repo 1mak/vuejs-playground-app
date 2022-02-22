@@ -1,0 +1,32 @@
+#app {
+    font-family: Roboto, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+:root {
+    --box-shadow-long: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+    --box-shadow-mid: 1px 0.8px 2.2px rgba(0, 0, 0, 0.02),
+    2.5px 2px 5.3px rgba(0, 0, 0, 0.028), 4.6px 3.8px 10px rgba(0, 0, 0, 0.035),
+    8.3px 6.7px 17.9px rgba(0, 0, 0, 0.042),
+    15.5px 12.5px 33.4px rgba(0, 0, 0, 0.05), 37px 30px 80px rgba(0, 0, 0, 0.07);
+    --box-shadow-short: 1px 0.8px 1.1px rgba(0, 0, 0, 0.02),
+    2.5px 2px 2.7px rgba(0, 0, 0, 0.028), 4.6px 3.8px 5px rgba(0, 0, 0, 0.035),
+    8.3px 6.7px 8.9px rgba(0, 0, 0, 0.042),
+    15.5px 12.5px 15.4px rgba(0, 0, 0, 0.05), 37px 30px 40px rgba(0, 0, 0, 0.07);
+}
+
+a {
+    font-weight: bold;
+    color: #2c3e50;
+
+&.router-link-exact-active {
+     color: #42b983;
+ }
+}
